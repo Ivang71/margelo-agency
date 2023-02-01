@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Footer: React.FC = () => (
   <footer className='min-h-full flex gap-8 items-center justify-center bg-black text-white p-20'>
     <Image 
-      src='/assets/logo.svg'
+      src='/margelo-agency/assets/logo.svg'
       width={18}
       height={18}
       alt='logo'

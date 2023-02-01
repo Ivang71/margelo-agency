@@ -33,8 +33,8 @@ const Masthead: React.FC = () => {
         playsInline
         className="absolute w-full h-full object-cover"
       >
-        <source src="/assets/masthead-bg.m4v" type="video/mp4; codecs=hvc1" />
-        <source src="/assets/masthead-bg.webm" type="video/webm; codecs=vp9" />
+        <source src="/margelo-agency/assets/masthead-bg.m4v" type="video/mp4; codecs=hvc1" />
+        <source src="/margelo-agency/assets/masthead-bg.webm" type="video/webm; codecs=vp9" />
       </video>
       <div
         className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
@@ -42,7 +42,7 @@ const Masthead: React.FC = () => {
         }`}
       >
         <Image
-          src="/assets/logo.svg"
+          src="/margelo-agency/assets/logo.svg"
           alt="logo type"
           width={128 / 3}
           height={114 / 3}
@@ -60,7 +60,7 @@ const Masthead: React.FC = () => {
         }`}
       >
         <Image
-          src="/assets/arrow-down.png"
+          src="/margelo-agency/assets/arrow-down.png"
           alt="scroll down"
           width={188 / 3}
           height={105 / 3}

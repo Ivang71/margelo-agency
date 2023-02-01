@@ -7,7 +7,7 @@ const ContactUs: React.FC = () => {
       <div className='flex-1 flex flex-col justify-center items-center pt-10 lg:pt-6'>
         <div className='pb-10'>
           <Image 
-            src='/assets/logo.svg'
+            src='/margelo-agency/assets/logo.svg'
             width={30}
             height={30}
             alt='logo'
