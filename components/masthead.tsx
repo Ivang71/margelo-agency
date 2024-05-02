@@ -16,6 +16,7 @@ const Masthead: React.FC = () => {
 
   const handleImageLoaded = useCallback(() => {
     setImageLoaded(true);
+    console.log('load')
   }, []);
 
   return (
