@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const Footer: React.FC = () => (
   <footer className='min-h-full flex gap-8 items-center justify-center bg-black text-white p-20'>

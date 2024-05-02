@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import React from "react";
 import SliderContainer, { SliderItem } from "./slider";
 import listTrusted from "../constants/dummy/trusted.json";

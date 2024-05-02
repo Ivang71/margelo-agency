@@ -1,5 +1,5 @@
 import React, { useRef, useContext, useState, useCallback } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { ScrollContext } from "../utils/scroll-observer";
 
 const Masthead: React.FC = () => {
@@ -16,7 +16,6 @@ const Masthead: React.FC = () => {
 
   const handleImageLoaded = useCallback(() => {
     setImageLoaded(true);
-    console.log('load')
   }, []);
 
   return (
@@ -39,7 +38,7 @@ const Masthead: React.FC = () => {
       </video>
       <div
         className={`flex-grow-0 pt-10 transition-opacity duration-1000 ${
-          !imageLoaded ? "opacity-100" : "opacity-0"
+          imageLoaded ? "opacity-100" : "opacity-0"
         }`}
       >
         <Image
@@ -57,7 +56,7 @@ const Masthead: React.FC = () => {
       </div>
       <div
         className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${
-          !imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
+          imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
         }`}
       >
         <Image

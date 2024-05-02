@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const ContactUs: React.FC = () => {
   return (
