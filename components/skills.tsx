@@ -55,7 +55,7 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 2),
             }}
           >
-            W&apos;re maintaning some of the most populer open-source projects,
+            We&apos;re maintaning some of the most populer open-source projects,
             with over <strong>1,234</strong> downloads.
           </span>
         </div>
